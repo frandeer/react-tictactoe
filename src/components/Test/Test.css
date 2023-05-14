@@ -1,0 +1,7 @@
+#test{
+    display: flex;
+}
+
+#test li{
+    text-align: left;
+}
