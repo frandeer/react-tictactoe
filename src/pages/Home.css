@@ -1,0 +1,35 @@
+.home{
+    max-width: 1920px;
+    marin: 0 auto;
+    padding: 0 1rem;
+}
+
+.section-1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1 > header {
+    height: 8rem;
+    box-sizing: border-box;
+    border-bottom: var(--border01);
+    display: flex;
+    justify-content: space-between
+}
+
+.section-1 > header > h1 {
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+.section-1 > header > ul {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
